@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
 }
+button {
+    cursor: pointer;
+}
 #topBar {
     width: 100%;
     height: 100px;
@@ -22,8 +25,17 @@ body {
     align-items: center;
 }
 #loginDialog {
-    width: 1400px;
-    height: 610px;
+    width: 350px;
+    height: 500px;
+}
+#loginDialog내용 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 95%;
+    gap: 5px;
 }
 #login나가기 {
     display: flex;
@@ -33,4 +45,13 @@ body {
     border: none;
     background-color: red;
     color: white;
+}
+#회원가입span {
+    color: blue;
+    text-decoration: none;
+}
+#회원가입span:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
 }
