@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #D3D3D3;
 }
 #topBar {
     width: 100%;
@@ -21,4 +20,17 @@ body {
     margin-left: auto;
     justify-content: center;
     align-items: center;
+}
+#loginDialog {
+    width: 1400px;
+    height: 610px;
+}
+#login나가기 {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: red;
+    color: white;
 }
