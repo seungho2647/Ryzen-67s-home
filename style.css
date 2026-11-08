@@ -25,7 +25,7 @@ button {
     height: 50px;
     border: none;
 }
-#loginDialog {
+#loginDialog, #회원가입Dialog {
     width: 350px;
     height: 500px;
 }
@@ -38,7 +38,7 @@ button {
     height: 95%;
     gap: 5px;
 }
-#loginDialog나가기 {
+.나가기 {
     display: flex;
     margin-left: auto;
     justify-content: center;
@@ -47,11 +47,11 @@ button {
     background-color: red;
     color: white;
 }
-#회원가입열기 {
+#회원가입Dialog열기 {
     color: blue;
     text-decoration: none;
 }
-#회원가입열기:hover {
+#회원가입Dialog열기:hover {
     color: blue;
     text-decoration: underline;
     cursor: pointer;
@@ -62,4 +62,13 @@ button {
     border: none;
     background-color: white;
     font-size: 30px;
+}
+#회원가입Dialog내용 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 95%;
+    gap: 5px;
 }

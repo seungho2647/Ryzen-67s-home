@@ -13,18 +13,23 @@
         <button id="menu">☰</button>
     </header>
     <dialog id="loginDialog">
-        <button id="loginDialog나가기">나가기</button>
+        <button class="나가기" id="loginDialog나가기">나가기</button>
         <div id="loginDialog내용">
             <h2>로그인</h2>
             <input type="text" placeholder="id">
             <input type="password" placeholder="password">
             <button id="submit">제출</button>
-            <p>아직 계정이 없나요? <span id="회원가입열기">회원가입</span>으로 계정을 생성하세요!</p>
+            <p>아직 계정이 없나요? <span id="회원가입Dialog열기">회원가입</span>으로 계정을 생성하세요!</p>
         </div>
     </dialog>
     <dialog id="회원가입Dialog">
+        <button class="나가기" id="회원가입Dialog나가기">나가기</button>
         <div id="회원가입Dialog내용">
         <h2>회원가입</h2>
+        <input type="text" placeholder="id">
+        <input type="password" placeholder="password">
+        <input type="password" placeholder="type password">
+        <button id="makeUser">계정 생성</button>
         </div>
     </dialog>
     <img src="img/야구.jfif" alt="예시 야구 이미지" width="100%">
