@@ -1,10 +1,17 @@
+const loginDialog열기 = document.getElementById("loginDialog열기")
+const loginDialog나가기 = document.getElementById("loginDialog나가기")
+const loginDialog = document.getElementById("loginDialog")
+const 회원가입열기 = document.getElementById("회원가입열기")
+const 회원가입Dialog = document.getElementById("회원가입Dialog")
 //login창 여닫단
-document.getElementById("loginDialog열기").addEventListener("click", () => {
-    document.getElementById("loginDialog").showModal();
+loginDialog열기.addEventListener("click", () => {
+    loginDialog.showModal();
 });
-document.getElementById("login나가기").addEventListener("click", () => {
-    document.getElementById("loginDialog").close();
+loginDialog나가기.addEventListener("click", () => {
+    loginDialog.close();
 });
-
-// TODO - 회원가입span 에이리로 다이얼로그도 맨들고 ㅇㅇ
-// TODO - 버튼 파랗게 선택 안되게 어떻게 해봐ㅏㅏ
+// TODO - 회원가입열기 에이리로 다이얼로그도 맨들고 ㅇㅇ
+//회원가입창 여닫단
+회원가입열기.addEventListener("click", () => {
+    ;
+});

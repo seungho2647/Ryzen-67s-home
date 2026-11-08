@@ -38,7 +38,7 @@ button {
     height: 95%;
     gap: 5px;
 }
-#login나가기 {
+#loginDialog나가기 {
     display: flex;
     margin-left: auto;
     justify-content: center;
@@ -47,11 +47,11 @@ button {
     background-color: red;
     color: white;
 }
-#회원가입span {
+#회원가입열기 {
     color: blue;
     text-decoration: none;
 }
-#회원가입span:hover {
+#회원가입열기:hover {
     color: blue;
     text-decoration: underline;
     cursor: pointer;
