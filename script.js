@@ -11,7 +11,6 @@ loginDialog열기.addEventListener("click", () => {
 loginDialog나가기.addEventListener("click", () => {
     loginDialog.close();
 });
-// TODO - 회원가입열기 에이리로 다이얼로그도 맨들고 ㅇㅇ
 //회원가입창 여닫단
 회원가입Dialog열기.addEventListener("click", () => {
     loginDialog.close();
