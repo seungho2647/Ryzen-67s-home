@@ -72,3 +72,14 @@ button {
     height: 95%;
     gap: 5px;
 }
+#게시판 {
+    margin: auto;
+    padding: 5px;
+    background-color: lightgrey;
+}
+#schedule {
+    background-color: orange;
+}
+.card {
+    background-color: gray;
+}
