@@ -27,7 +27,7 @@ loginDialog나가기.addEventListener("click", () => {
 async function loadDivCards() {
     const responce = await fetch("./data.json");
     const items = await responce.json();
-    const container = document.getElementById("schedule");
+    const container = document.getElementById("scheduleCard");
 
     items.forEach(item => {
         const cardDiv = document.createElement("div");

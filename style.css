@@ -1,4 +1,15 @@
+:root {
+    --bg: white;
+    --navy: #101B30;
+    --orange: #E87524;/*이거 좀 어둡다 바꿔라 ㅇㅇ*/
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #121212/*TODO - 다크모드 root*/
+    }
+}
 body {
+    background-color: var(--bg);
     margin: 0;
     padding: 0;
 }
@@ -78,8 +89,27 @@ button {
     background-color: lightgrey;
 }
 #schedule {
-    background-color: orange;
+    background-color: var(--orange);
+    margin: 0 auto;
+    width: 100%;
+}
+#scheduleCard {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 10px;
 }
 .card {
-    background-color: gray;
+    background-color: #101B30;
+    color: white;
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 140px;
+    height: 180px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.title {
+    margin-bottom: auto;
 }
