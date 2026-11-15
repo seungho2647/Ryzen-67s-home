@@ -95,7 +95,7 @@ button {
 }
 #scheduleCard {
     display: flex;
-    gap: 12px;
+    gap: 12px;/*gap 좀 줄여봐 bro*/
     overflow-x: auto;
     padding-bottom: 10px;
 }

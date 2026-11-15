@@ -32,8 +32,10 @@ async function loadDivCards() {
     items.forEach(item => {
         const cardDiv = document.createElement("div");
         cardDiv.innerHTML =`
-            <h3>${item.title}</h3>
-            <p>${item.content}</p>
+            <h2>${item.date}</h2>
+            ${item.score ? `<h2>${item.score}</h2>` : ""}
+            <h4>${item.who}</h4>
+            <p>${item.whereWhen}</p>
         `;
         container.appendChild(cardDiv);
         cardDiv.classList.add("card");
