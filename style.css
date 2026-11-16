@@ -95,7 +95,7 @@ button {
 }
 #scheduleCard {
     display: flex;
-    gap: 12px;/*gap 좀 줄여봐 bro*/
+    gap: 12px;
     overflow-x: auto;
     padding-bottom: 10px;
 }
@@ -105,10 +105,14 @@ button {
     border-radius: 10px;
     flex-shrink: 0;
     width: 140px;
-    height: 180px;
+    min-height: 180px;
+    height: auto;
     border: none;
     padding: 10px;
     box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+
 }
 .title {
     margin-bottom: auto;

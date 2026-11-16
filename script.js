@@ -25,7 +25,11 @@ loginDialog나가기.addEventListener("click", () => {
 
 // 경기 일정 및 기록 json 연결
 async function loadDivCards() {
-    const responce = await fetch("./data.json");
+    try {
+        const responce = await fetch("./data.json");
+        if (!responce.ok) {
+            throw new Error(`Error! status code: ${responce.status}`)
+        }
     const items = await responce.json();
     const container = document.getElementById("scheduleCard");
 
@@ -40,5 +44,11 @@ async function loadDivCards() {
         container.appendChild(cardDiv);
         cardDiv.classList.add("card");
     });
+    } catch (error) {
+        console.error("일정 카드를 불러오는 데 실패했습니다:", error);
+    }
 }
 loadDivCards();
+
+//json에 데이터 좀 쑤셔느셈 ㅇㅇ
+//그리고 그 카드 누르면 다이얼로그 띄우고 거기에 상세 데이터 ㄱ
