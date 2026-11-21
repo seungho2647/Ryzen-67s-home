@@ -36,6 +36,7 @@ button {
     height: 50px;
     border: none;
     background-color: var(--bg);
+    color: white;
 }
 #loginDialog, #회원가입Dialog {
     width: 350px;
@@ -73,6 +74,7 @@ button {
     height: 50px;
     border: none;
     background-color: var(--bg);
+    color: white;
     font-size: 30px;
 }
 #회원가입Dialog내용 {
