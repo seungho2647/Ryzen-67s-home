@@ -7,10 +7,6 @@
     :root {
         --bg: #333333/*TODO - 다크모드 root*/
     }
-    #loginDialog열기, #menu {
-        background-color: #333333;
-        color: white;
-    }
 }
 body {
     background-color: var(--bg);
@@ -75,7 +71,7 @@ button {
     margin: 2%;
     height: 50px;
     border: none;
-    background-color: white;
+    background-color: var(--bg);
     font-size: 30px;
 }
 #회원가입Dialog내용 {
