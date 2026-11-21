@@ -7,6 +7,10 @@
     :root {
         --bg: #333333/*TODO - 다크모드 root*/
     }
+    #loginDialog열기, #menu {
+        background-color: none;
+        color: white;
+    }
 }
 body {
     background-color: var(--bg);
