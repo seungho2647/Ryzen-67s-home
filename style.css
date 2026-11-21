@@ -35,6 +35,7 @@ button {
     margin: 2%;
     height: 50px;
     border: none;
+    background-color: var(--bg);
 }
 #loginDialog, #회원가입Dialog {
     width: 350px;
