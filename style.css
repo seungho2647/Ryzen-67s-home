@@ -5,7 +5,7 @@
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #121212/*TODO - 다크모드 root*/
+        --bg: #333333/*TODO - 다크모드 root*/
     }
 }
 body {
